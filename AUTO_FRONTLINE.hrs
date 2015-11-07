@@ -1,0 +1,86 @@
+//Start with robot front rail on alliance zone line
+//shoot 3, drive forward, left turn, back to intake, swerve to right side and shoot
+
+
+
+
+
+ShooterStart
+SetTurret  -70
+SetTilt -54
+
+Wait .5
+
+SetTuret 0
+CameraAim
+Wait .5
+CameraAim
+Wait .5
+CameraAim
+Wait .5
+
+
+
+Launch
+Wait .5
+Launch	
+Wait .5
+Launch 
+Wait .5
+Launch
+Wait .3
+SetTurret  1
+SetTilt -70
+Wait .2
+
+
+
+
+DriveTicksHeading 1.0 -600 -3.0
+BrakeWait .1 -10
+DisableBrake 
+GyroTurn -90
+Wait .2
+IntakeOn
+
+DriveTicksHeading -.6 650 -90
+
+
+
+
+
+DriveTicksHeading -1.0 70 -60
+DriveTicksHeading -1.0 50 -40
+DriveTicksHeading -1.0 200 -0
+BrakeWait .05 10
+DisableBrake 
+Wait .2
+SetTurret  40
+SetTilt -70
+
+
+
+
+Wait .6
+SetTurret 0
+CameraAim
+Wait .5
+CameraAim
+Wait .4
+CameraAim
+Wait .4
+CameraAim
+Wait .2
+
+
+
+Launch
+Wait .5
+Launch
+Wait .5
+Launch 
+Wait .5
+Launch
+Wait .2
+ResetShooter
+Wait .2

@@ -1,0 +1,33 @@
+//AIM THE SHOOTER'S EXIT POINT AT GOAL
+
+
+
+
+ShooterStart
+SetTilt -61
+Wait .7
+CameraAim
+Wait .4
+CameraAim
+Wait .4
+CameraAim
+Wait .4
+
+Launch
+Wait .5
+Launch
+Wait .5
+Launch 
+Wait .5
+Launch
+Wait .5
+Launch
+Launch 
+Wait .5
+Launch
+
+
+Wait .2
+ShooterEnd
+
+

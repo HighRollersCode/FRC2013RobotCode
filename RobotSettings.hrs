@@ -1,0 +1,21 @@
+//IF IN VEGAS CHANGE TURRET K TO .03   IN SHOP CHANGE TO .02
+//CHANGE DRIVE TRAIN K TO -.03 IN VEGAS
+
+
+	//mult
+EBrakeSettings .7
+
+
+	//gyromult was .02 for practice, -.03 for real bot
+DrainTrainSettings -.01
+
+
+
+//7-Disc Autos//
+// 1 - ONEBALL
+// 2 - TWOBALL
+// 3 - TWOBALLPUSH
+// 4 - THREEBALL
+
+
+SetAuto 8

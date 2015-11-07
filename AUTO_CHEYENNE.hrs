@@ -1,0 +1,14 @@
+//Legacy Feed
+
+Wait 1.0
+GyroTurn -70
+DriveTicksHeading .7 150 -90
+GyroTurn 0
+DriveTicksHeading .7 200 0
+GyroTurn 70
+DriveTicksHeading .7 150 90
+GyroTurn 10
+DriveTicksHeading .7 100 0
+Wait .5
+DriveTicksHeading 0.0 0 0
+Wait .2

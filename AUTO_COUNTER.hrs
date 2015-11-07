@@ -1,0 +1,66 @@
+// Start: back of tower
+// Shoot 3, Drive forward to funnel, back up to intake, fire 4 under tower
+
+
+
+ShooterStart
+SetTilt -61
+IntakeOn
+
+DriveTicksHeading -.7 640 0
+
+DriveTicksHeading .7 -600 .00001 
+BrakeWait .1 -10
+
+DisableBrake 
+Wait .4
+SetTurret 0
+SetTurretGyro -8.0
+SetTilt -70
+Wait .4
+
+
+
+CameraAim
+Wait .3
+CameraAim
+Wait .3
+CameraAim
+Wait .3
+CameraAim
+
+//Score phase 2
+Wait .3
+Launch
+Wait .5
+Launch
+Wait .5
+Launch
+SetTurret  1
+DriveTicksHeading 1.0 -320 .00001 
+IntakeOn
+
+DriveTicksHeading -.6 300 .00001 
+BrakeWait .05 5
+
+DisableBrake 
+SetTurret 0
+SetTurretGyro -8.0
+Wait .6
+
+CameraAim
+Wait .3
+CameraAim
+Wait .3
+CameraAim
+Wait .3
+CameraAim
+
+//Score phase 2
+Wait .3
+Launch
+Wait .5
+Launch
+Wait .5
+Launch
+

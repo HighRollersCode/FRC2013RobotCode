@@ -1,0 +1,93 @@
+//swoop to other side
+
+
+
+
+//was -586
+ShooterStart
+SetTurret  -70
+//-74 tilt
+SetTilt -54
+Wait .5
+//ShooterStart
+SetTuret 0
+CameraAim
+Wait .5
+CameraAim
+Wait .5
+CameraAim
+Wait .5
+
+
+
+Launch
+Wait .3
+SetTurret  1
+SetTilt -70
+//ResetShooter
+Wait .2
+
+//460 original drive
+DriveTicksHeading -1.0 340 0
+BrakeWait .1 10
+DisableBrake 
+
+
+
+
+
+
+
+GyroTurn -90
+Wait .2
+IntakeOn
+DriveTicksHeading -.7 750 -90
+
+
+
+
+
+
+
+BrakeWait .1 10
+DisableBrake 
+GyroTurn -25
+DriveTicksHeading .9 -650 -10
+
+BrakeWait .05 -10
+DisableBrake 
+
+
+
+
+
+
+
+
+
+
+
+
+SetTurret 0
+SetTurretGyro -43
+SetTilt -60
+Wait .65
+SetTurret 0
+CameraAim
+Wait .5
+CameraAim
+Wait .5
+CameraAim
+Wait .5
+
+
+Launch
+Wait .5
+Launch
+Wait .5
+Launch 
+Wait .5
+Launch
+Wait .2
+ResetShooter
+Wait .2

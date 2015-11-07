@@ -1,0 +1,77 @@
+//Centerline auto, shoots one
+
+
+
+
+//was -586
+ShooterStart
+SetTurret  -70
+//-74 tilt
+SetTilt -54
+Wait .5
+//ShooterStart
+SetTuret 0
+CameraAim
+Wait .5
+CameraAim
+Wait .4
+CameraAim
+Wait .3
+
+
+
+Launch
+Wait .3
+
+SetTurret  1
+SetTilt -70
+//ResetShooter
+Wait .2
+
+//460 original drive
+DriveTicksHeading -1.0 320 0
+BrakeWait .1 10
+DisableBrake 
+GyroTurn -90
+Wait .2
+IntakeOn
+DriveTicksHeading -.3 400 -90
+
+//BrakeWait .1 10
+//DisableBrake 
+GyroTurn -70
+DriveTicksHeading .65 -280 -70
+DriveTicksHeading .6 -150 -30
+DriveTicksHeading .9 -150 -20
+DriveTicksHeading 1.0 -500 10
+BrakeWait .05 -10
+DisableBrake 
+SetTurret  0
+SetTurretGyro -27
+SetTilt -200
+Wait .2
+SetTurret 0
+CameraAim
+Wait .5
+CameraAim
+Wait .5
+CameraAim
+Wait .5
+
+
+Launch
+Wait .4
+Launch
+Wait .4
+Launch 
+Wait .4
+Launch 
+Wait .4
+Launch 
+Wait .4
+Launch
+Wait .4
+Launch
+Wait .2
+ResetShooter
+Wait .2
